@@ -1,16 +1,16 @@
-# GitHub Kaggle Project README
+# Equitable AI for Dermatology, AJL Kaggle Competition
 
 
 ### **👥 Team Members**
 
 | Name | GitHub Handle | Contribution | <br />
-| Bode Chiu | | Model Improvement |<br />
-| Erica Xue | <br />
+| Bode Chiu | @BootyChu | Model Improvement |<br />
+| Erica Xue | @ericaxuee | Model Improvement |<br />
 | Manoj Yogi | @manojnathyogi | Data Visualization and Model  | <br />
-| Natalie Kao | <br />
+| Natalie Kao | | Model Improvement |<br />
 | Smila Gala | @Smila3 | Initial EDA and updating Discord README | <br />
 | Sneha Nangunoori | @snehanangunoori | Model Development and FineTunning | <br />
-| Precious Onah | <br />
+| Precious Onah | | Model Improvement |<br />
 
 ---
 
@@ -18,7 +18,7 @@
 
 **Example:**
 
-* Built a \[insert model type\] using \[techniques used\] to solve \[Kaggle competition task\]
+* Built a \[insert model type\] using \[techniques used\] to predict more than 16 different skin conditions in different skin types
 * Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
 * Used \[explainability tool\] to interpret model decisions
 * Implemented \[data preprocessing method\] to optimize results within compute constraints
@@ -27,9 +27,9 @@
 
 ## **👩🏽‍💻 Setup & Execution**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+**How to run the Notebooks:**
 
-* How to clone the repository
+* Clone the repository by pasting "git clone https://github.com/manojnathyogi/Equitable_AI_Dermatology-TeamGlycolic" in the terminal of your preferred IDE
 * How to install dependencies
 * How to set up the environment
 * How to access the dataset(s)
@@ -104,9 +104,12 @@ Check out [this guide](https://drive.google.com/file/d/1kYKaVNR\_l7Abx2kebs3AdDi
 
 **Address the following:**
 
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
+* What are some of the limitations of your model?<br />
+  We had some difficulties with the model overfitting the data and inconsistencies with our results after running the model several times
+* What would you do differently with more time/resources? <br />
+  With more time and resources we could have researched better the reason behind the inconsistencies of our results and work around those
+* What additional datasets or techniques would you explore? <br />
+  We would explore different techniques related to ensemble models and other image-oriented EDA
 
 ---
 
