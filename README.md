@@ -1,16 +1,16 @@
 # GitHub Kaggle Project README Template
 
-⚠️ _Remember to update the above title and remove all guidance notes and examples in this template, before finalizing your README_
-
----
 
 ### **👥 Team Members**
 
 | Name | GitHub Handle | Contribution |
-| ----- | ----- | ----- |
-| Alice Doe | @AliceDoe | Built CNN model, performed data augmentation |
-| Mel Ramakrishnan | @MelRam | Led EDA, visualized dataset distributions, handled missing data |
-| Charlie Nguyen | @CharlieN | Implemented explainability tools |
+| Bode Chiu | 
+| Erica Xue |
+| Manoj Yogi | @manojnathyogi |
+| Natalie Kao |
+| Smila Gala | @Smila3 | Initial EDA and updating Discord README
+| Sneha Nangunoori | @snehanangunoori | Model Development and FineTunning |
+| Precious Onah |
 
 ---
 
@@ -24,9 +24,6 @@
 * Implemented \[data preprocessing method\] to optimize results within compute constraints
 
 🔗 [Equitable AI for Dermatology | Kaggle Competition Page](https://www.kaggle.com/competitions/bttai-ajl-2025/overview)
-🔗 [WiDS Datathon 2025 | Kaggle Competition Page](https://www.kaggle.com/competitions/widsdatathon2025/overview)
-
----
 
 ## **👩🏽‍💻 Setup & Execution**
 
@@ -42,11 +39,10 @@
 
 ## **🏗️ Project Overview**
 
-**Describe:**
-
-* The Kaggle competition and its connection to the Break Through Tech AI Program
-* The objective of the challenge
-* The real-world significance of the problem and the potential impact of your work
+- Train a model to classify 16 different skin conditions using the provided dataset.
+- Achieve high accuracy using the weighted F1 score as the evaluation metric.
+- - Highlight fairness and inclusivity in the AI model.
+- Use fairness and explainability tools, visualizations, or storytelling to center the "excluded" in the work
 
 ---
 
@@ -93,11 +89,6 @@
 
 **Answer the relevant questions below based on your competition:**
 
-**WiDS challenge:**
-
-1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
-2. How could your work help contribute to ADHD research and/or clinical care?
-
 **AJL challenge:**
 
 As Dr. Randi mentioned in her challenge overview, “Through poetry, art, and storytelling, you can reach others who might not know enough to understand what’s happening with the machine learning model or data visualizations, but might still be heavily impacted by this kind of work.”
@@ -121,7 +112,11 @@ Check out [this guide](https://drive.google.com/file/d/1kYKaVNR\_l7Abx2kebs3AdDi
 
 ## **📄 References & Additional Resources**
 
-* Cite any relevant papers, articles, or tools used in your project
+1. [Create custom Data Generator for TensorFlow](https://medium.com/analytics-vidhya/write-your-own-custom-data-generator-for-tensorflow-keras-1252b64e41c3)
+2. [Sample Keras Image Classification Models](https://keras.io/examples/vision/image_classification_from_scratch/)
+3. [Ensemble Model Tutorials](https://pytorch.org/tutorials/intermediate/ensembling.html)
+4. [Fine-Tuning Resources part 1](http://restack.io/)
+5. [Fine-Tuning Resources part 2](https://huggingface.co/docs/transformers/en/training)
 
 ---
 
