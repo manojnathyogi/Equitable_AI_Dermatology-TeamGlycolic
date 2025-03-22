@@ -1,16 +1,16 @@
-# GitHub Kaggle Project README Template
+# GitHub Kaggle Project README
 
 
 ### **👥 Team Members**
 
-| Name | GitHub Handle | Contribution |
-| Bode Chiu | 
-| Erica Xue |
-| Manoj Yogi | @manojnathyogi |
-| Natalie Kao |
-| Smila Gala | @Smila3 | Initial EDA and updating Discord README
-| Sneha Nangunoori | @snehanangunoori | Model Development and FineTunning |
-| Precious Onah |
+| Name | GitHub Handle | Contribution | <br />
+| Bode Chiu | | Model Improvement |<br />
+| Erica Xue | <br />
+| Manoj Yogi | @manojnathyogi | Data Visualization and Model  | <br />
+| Natalie Kao | <br />
+| Smila Gala | @Smila3 | Initial EDA and updating Discord README | <br />
+| Sneha Nangunoori | @snehanangunoori | Model Development and FineTunning | <br />
+| Precious Onah | <br />
 
 ---
 
