@@ -3,13 +3,13 @@
 
 ### **👥 Team Members**
 
-| Name | GitHub Handle | Contribution | <br />
-| Bode Chiu | @BootyChu | Model Improvement |<br />
-| Erica Xue | @ericaxuee | Model Improvement |<br />
-| Manoj Yogi | @manojnathyogi | Data Visualization and Model  | <br />
-| Natalie Kao | @nataliekao03 | Model Improvement |<br />
-| Smila Gala | @Smila3 | Initial EDA and updating Discord README | <br />
-| Sneha Nangunoori | @snehanangunoori | Model Development and FineTunning | <br />
+| Name | Contribution | <br />
+| [Bode Chiu](https://github.com/BootyChu) | Model Improvement |<br />
+| [Erica Xue](https://github.com/ericaxuee) | Model Improvement |<br />
+| [Manoj Yogi](https://github.com/manojnathyogi) | Data Visualization and Model  | <br />
+| [Natalie Kao](https://github.com/nataliekao03) | Model Improvement |<br />
+| [Smila Gala](https://github.com/Smila3) | Initial EDA and updating Discord README | <br />
+| [Sneha Nangunoori](https://github.com/snehanangunoori) | Model Development and FineTunning | <br />
 | Precious Onah | | Model Improvement |<br />
 
 ---
@@ -29,9 +29,15 @@
 
 **How to run the Notebooks:**
 
-* Clone the repository by pasting "git clone https://github.com/manojnathyogi/Equitable_AI_Dermatology-TeamGlycolic" in the terminal of your preferred IDE
+
+* Clone the repository in the terminal of your preferred IDE
+  ```bash
+  git clone https://github.com/manojnathyogi/Equitable_AI_Dermatology-TeamGlycolic.git
+  cd Equitable_AI_Dermatology-TeamGlycolic
+  ```
 * Make sure to download the datasets provided in the competition link, and paste them in the same directory as the notebooks
 * These notebooks can run in IDEs like Visual Studio Code, but we recommend opening it in the Kaggle or Jupyter Notebook sites
+
 
 ---
 
