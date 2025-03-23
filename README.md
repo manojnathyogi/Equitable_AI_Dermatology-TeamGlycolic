@@ -7,7 +7,7 @@
 | Bode Chiu | @BootyChu | Model Improvement |<br />
 | Erica Xue | @ericaxuee | Model Improvement |<br />
 | Manoj Yogi | @manojnathyogi | Data Visualization and Model  | <br />
-| Natalie Kao | | Model Improvement |<br />
+| Natalie Kao | @nataliekao03 | Model Improvement |<br />
 | Smila Gala | @Smila3 | Initial EDA and updating Discord README | <br />
 | Sneha Nangunoori | @snehanangunoori | Model Development and FineTunning | <br />
 | Precious Onah | | Model Improvement |<br />
