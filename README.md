@@ -18,8 +18,8 @@
 
 **Example:**
 
-* Built a \[insert model type\] using \[techniques used\] to predict more than 16 different skin conditions in different skin types
-* Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
+* Built a DenseNet model to predict more than 16 different skin conditions in different skin types
+* Achieved an F1 score of 0.58 and a ranking of 13th place on the final Kaggle Leaderboard
 * Used \[explainability tool\] to interpret model decisions
 * Implemented \[data preprocessing method\] to optimize results within compute constraints
 
@@ -30,33 +30,26 @@
 **How to run the Notebooks:**
 
 * Clone the repository by pasting "git clone https://github.com/manojnathyogi/Equitable_AI_Dermatology-TeamGlycolic" in the terminal of your preferred IDE
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+* Make sure to download the datasets provided in the competition link, and paste them in the same directory as the notebooks
+* These notebooks can run in IDEs like Visual Studio Code, but we recommend opening it in the Kaggle or Jupyter Notebook sites
 
 ---
 
 ## **🏗️ Project Overview**
 
-- Train a model to classify 16 different skin conditions using the provided dataset.
+- Train a model to classify 16 different skin conditions using the provided dataset and ensure our prediction is tailored for all kinds of skin tones.
 - Achieve high accuracy using the weighted F1 score as the evaluation metric.
-- - Highlight fairness and inclusivity in the AI model.
-- Use fairness and explainability tools, visualizations, or storytelling to center the "excluded" in the work
-
+- Projects like this ensure more competent AI algorithms in the health field, as we so regularly see how misrepresented groups get misdiagnosed due to professionals only studying the majority in the past. When developing the model, we wanted to be more socially responsible and include those values related to representation and diversity in our project.
 ---
 
 ## **📊 Data Exploration**
 
-**Describe:**
+* We used the dataset provided by AJL, which contains a wide variety of skin condition images. To train the model, we wanted to get an idea of what kind of conditions are more represented and think on how we could address this disparity. You can find the actual dataset in the competition page.
+* Below you can find our bar charts and confussion matrix.
 
-* The dataset(s) used (i.e., the data provided in Kaggle \+ any additional sources)
-* Data exploration and preprocessing approaches
-* Challenges and assumptions when working with the dataset(s)
-
-**Potential visualizations to include:**
-
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+![Screenshot 2025-03-22 123240](https://github.com/user-attachments/assets/48341e7c-7d73-47fd-8ee3-6f6cc201f808)
+![Screenshot 2025-03-22 123139](https://github.com/user-attachments/assets/7ba3c1c3-5d1f-414a-a7f2-89b57b3dc566)
+![Screenshot 2025-03-22 123224](https://github.com/user-attachments/assets/a51729c1-f912-47bf-90b7-c6dd0a775b67)
 
 ---
 
@@ -64,7 +57,7 @@
 
 **Describe (as applicable):**
 
-* Model(s) used (e.g., CNN with transfer learning, regression models)
+* Model(s) used: DenseNet
 * Feature selection and Hyperparameter tuning strategies
 * Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
 
