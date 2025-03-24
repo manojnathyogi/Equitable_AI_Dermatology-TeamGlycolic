@@ -10,7 +10,7 @@
 | [Natalie Kao](https://github.com/nataliekao03) | Model Improvement |<br />
 | [Smila Gala](https://github.com/Smila3) | Initial EDA and updating Discord README | <br />
 | [Sneha Nangunoori](https://github.com/snehanangunoori) | Model Development and FineTunning | <br />
-| Precious Onah | | Model Improvement |<br />
+| [Precious Onah](https://github.com/preciousonah) | | Model Improvement |<br />
 
 ---
 
