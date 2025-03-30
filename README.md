@@ -16,7 +16,7 @@
 
 ## **🎯 Project Highlights**
 
-* Developed the final model leveraging pre-trained architectures (ResNet, EfficientNet, ConvNeXt) to classify 16 different skin conditions across diverse skin tones on the Fitzpatrick scale.
+* Developed the final model leveraging transfer learning with pre-trained architectures (ResNet, EfficientNet, ConvNeXt) to classify 16 different skin conditions across diverse skin tones on the Fitzpatrick scale.
 
 * Attained an F1 score of 0.61, securing 13th place out of 74 teams on the final Kaggle leaderboard.
 
@@ -45,7 +45,7 @@
 ## **🏗️ Project Overview**
 
 - Our project was part of a Algorithmic Justic League (AJL) Kaggle competition linked to the Break Through Tech AI Program, aiming to advance AI-driven healthcare solutions.
-- The challenge required us to develop a model capable of classifying 16 different skin conditions while ensuring fairness across diverse skin tones.
+- The challenge required us to develop a model capable of classifying 21 different skin conditions while ensuring fairness across diverse skin tones.
 - The evaluation metric, weighted F1 score, emphasized the importance of balanced performance across all classes.
 - Projects like this ensure more competent AI algorithms in the health field, as we so regularly see how misrepresented groups get misdiagnosed due to professionals only studying the majority in the past.
 - When developing the model, we wanted to be more socially responsible and include those values related to representation and diversity in our project.
@@ -54,12 +54,30 @@
 
 ## **📊 Data Exploration**
 
-* We used the dataset provided by AJL, which contains a wide variety of skin condition images. To train the model, we wanted to get an idea of what kind of conditions are more represented and think on how we could address this disparity. You can find the actual dataset in the competition page.
-* Below you can find our bar charts and confussion matrix.
+- We used the dataset provided by AJL, which is a subset of the FitzPatrick17k dataset, containing approximately 17,000 images depicting a variety of serious (e.g., melanoma) and cosmetic (e.g., acne) dermatological conditions. These images cover a range of skin tones, scored on the FitzPatrick skin tone scale (FST).  
+  *FYI: The dataset is available on the competition page.*
 
-![Screenshot 2025-03-22 123240](https://github.com/user-attachments/assets/48341e7c-7d73-47fd-8ee3-6f6cc201f808)
-![Screenshot 2025-03-22 123139](https://github.com/user-attachments/assets/7ba3c1c3-5d1f-414a-a7f2-89b57b3dc566)
-![Screenshot 2025-03-22 123224](https://github.com/user-attachments/assets/a51729c1-f912-47bf-90b7-c6dd0a775b67)
+- The dataset contains about 4,500 images representing 21 skin conditions out of the 100+ in the full FitzPatrick dataset.
+
+- The Fitzpatrick scale ranges from 1 to 6, but we observed some rows containing an invalid value of -1, which is outside the expected range. To ensure data accuracy, we removed these rows from the dataset.
+
+  ![Fitzpatrick Scale Distribution](https://github.com/user-attachments/assets/48341e7c-7d73-47fd-8ee3-6f6cc201f808)
+
+---
+
+- **Observation**: The Fitzpatrick scale and "Fitzpatrick_centaur" attributes show a moderate positive correlation but are not perfectly aligned.
+
+- **Explanation**: Cultural differences in skin tone classification, as well as potential biases in data collection or subjectivity in manual assessments, may account for discrepancies between the two variables.
+
+  ![Screenshot 2025-03-22 123139](https://github.com/user-attachments/assets/7ba3c1c3-5d1f-414a-a7f2-89b57b3dc566)
+
+---
+
+- Before training the model, we analyzed the distribution of skin conditions to identify any imbalances and explored strategies to mitigate them.
+
+- To address the class imbalance issue, we implemented a strategy using a class weights dictionary, which was later fed into the model during training to ensure balanced learning across all classes.
+
+  ![Label Distribution in Training Set](https://github.com/user-attachments/assets/a51729c1-f912-47bf-90b7-c6dd0a775b67)
 
 ---
 
