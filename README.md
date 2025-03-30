@@ -44,9 +44,12 @@
 
 ## **🏗️ Project Overview**
 
-- Train a model to classify 16 different skin conditions using the provided dataset and ensure our prediction is tailored for all kinds of skin tones.
-- Achieve high accuracy using the weighted F1 score as the evaluation metric.
-- Projects like this ensure more competent AI algorithms in the health field, as we so regularly see how misrepresented groups get misdiagnosed due to professionals only studying the majority in the past. When developing the model, we wanted to be more socially responsible and include those values related to representation and diversity in our project.
+- Our project was part of a Algorithmic Justic League (AJL) Kaggle competition linked to the Break Through Tech AI Program, aiming to advance AI-driven healthcare solutions.
+- The challenge required us to develop a model capable of classifying 16 different skin conditions while ensuring fairness across diverse skin tones.
+- The evaluation metric, weighted F1 score, emphasized the importance of balanced performance across all classes.
+- Projects like this ensure more competent AI algorithms in the health field, as we so regularly see how misrepresented groups get misdiagnosed due to professionals only studying the majority in the past.
+- When developing the model, we wanted to be more socially responsible and include those values related to representation and diversity in our project.
+  
 ---
 
 ## **📊 Data Exploration**
