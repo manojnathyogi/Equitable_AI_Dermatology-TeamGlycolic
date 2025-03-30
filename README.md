@@ -1,28 +1,30 @@
 # Equitable AI for Dermatology, AJL Kaggle Competition
 
 
-### **👥 Team Members**
-
-| [Bode Chiu](https://github.com/BootyChu) | Model Improvement |<br />
-| [Erica Xue](https://github.com/ericaxuee) | Model Improvement |<br />
-| [Manoj Yogi](https://github.com/manojnathyogi) | Data Visualization and Model Development | <br />
-| [Natalie Kao](https://github.com/nataliekao03) | Model Improvement |<br />
-| [Smila Gala](https://github.com/Smila3) | Initial EDA and updating README | <br />
-| [Sneha Nangunoori](https://github.com/snehanangunoori) | Model Development and Improvement | <br />
-| [Precious Onah](https://github.com/preciousonah) | | Model Improvement |<br />
+## **👥 Team Members**
+| Name | GitHub Handle | Contribution |
+| ----- | ----- | ----- |
+| Bode Chiu | [@BootyChu](https://github.com/BootyChu) | Model Improvement |<br />
+| Erica Xue | [@ericaxuee](https://github.com/ericaxuee) | Model Improvement |<br />
+| Manoj Nath Yogi | [@manojnathyogi](https://github.com/manojnathyogi) | Data Visualization and Model Development | <br />
+| Natalie Kao | [@nataliekao03](https://github.com/nataliekao03) | Model Improvement |<br />
+| Smila Gala | [@Smila3](https://github.com/Smila3) | Initial EDA and updating README | <br />
+| Sneha Nangunoori | [@snehanangunoori](https://github.com/snehanangunoori) | Model Development and Improvement | <br />
+| Precious Onah | [preciousonah](https://github.com/preciousonah) | Model Improvement |<br />
 
 ---
 
 ## **🎯 Project Highlights**
 
-**Example:**
+* Developed the final model leveraging pre-trained architectures (ResNet, EfficientNet, ConvNeXt) to classify 16 different skin conditions across diverse skin tones on the Fitzpatrick scale.
 
-* Built a DenseNet model to predict more than 16 different skin conditions in different skin types
-* Achieved an F1 score of 0.58 and a ranking of 13th place on the final Kaggle Leaderboard
-* Used \[explainability tool\] to interpret model decisions
-* Implemented \[data preprocessing method\] to optimize results within compute constraints
+* Attained an F1 score of 0.61, securing 13th place out of 74 teams on the final Kaggle leaderboard.
+
+* Employed image generation and augmentation techniques to enhance dataset diversity and model generalization.
 
 🔗 [Equitable AI for Dermatology | Kaggle Competition Page](https://www.kaggle.com/competitions/bttai-ajl-2025/overview)
+
+---
 
 ## **👩🏽‍💻 Setup & Execution**
 
