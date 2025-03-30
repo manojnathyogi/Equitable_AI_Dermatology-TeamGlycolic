@@ -79,17 +79,36 @@
 
   ![Label Distribution in Training Set](https://github.com/user-attachments/assets/a51729c1-f912-47bf-90b7-c6dd0a775b67)
 
+- 
 ---
 
 ## **🧠 Model Development**
 
-**Describe (as applicable):**
+**Models Used:** 
+- ResNet
+- EfficientNet
+- ConvNeXt
 
-* Model(s) used: DenseNet
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+**Feature selection and Hyperparameter tuning strategies**
 
----
+*Interation 1*
+* As this is a computer vision problem, the features extracted from the dataset were limited to the image paths and the corresponding labels, which were encoded into integers.
+* The core approach involved leveraging pre-trained image classification models as the base, and fine-tuning the model by adding dense layers and dropout layers to mitigate overfitting.
+* To transition from the base model to the additional layers, we used GlobalAveragePooling2D(), which aggregates feature maps by averaging their values, reducing spatial dimensions and the risk of overfitting while maintaining key features for classification.
+
+*Interation 2*
+* We noticed that the model wasn’t effectively learning from our dataset, so we unfreezed some of the last layers of the pre-trained models. We then experimented with the optimal number of layers to unfreeze, balancing between retaining the knowledge learned from the ImageNet dataset and allowing the model to better adapt to our specific dataset.
+* Initially, we considered increasing the number of epochs to give the model more time to learn patterns from the dataset. However, after a certain point, the validation accuracy plateaued, indicating that the learning rate was too low. As a result, we adjusted the learning rate from 1e-4 to 1e-3 to improve convergence.
+
+*Iteration 3*
+* After increasing the learning rate to 1e-3, the model started to overfit, learning the training data but failing to generalize well. To address this, we implemented a learning rate reduction callback, which dynamically reduces the learning rate when the validation accuracy begins to plateau.
+* Additionally, for models with relatively fewer layers, such as ResNet50, we needed to train for more epochs to allow the model to effectively learn from the dataset.
+
+**Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)**
+
+* Training and validation data had a ratio of 80:20
+* Training evaluation metric: Validation accuracy
+* Baseline Performance: 0.3 - 0.4 
 
 ## **📈 Results & Key Findings**
 
