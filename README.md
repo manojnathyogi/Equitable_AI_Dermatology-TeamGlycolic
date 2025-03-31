@@ -9,7 +9,7 @@
 | Manoj Nath Yogi | [@manojnathyogi](https://github.com/manojnathyogi) | Data Visualization and Model Development | <br />
 | Natalie Kao | [@nataliekao03](https://github.com/nataliekao03) | Model Improvement |<br />
 | Smila Gala | [@Smila3](https://github.com/Smila3) | Initial EDA and updating README | <br />
-| Sneha Nangunoori | [@snehanangunoori](https://github.com/snehanangunoori) | Model Development and Improvement | <br />
+| Sneha Nangunoori | [@snehanangunoori](https://github.com/snehanangunoori) | Model Development and Fine-tuning | <br />
 | Precious Onah | [preciousonah](https://github.com/preciousonah) | Model Improvement |<br />
 
 ---
@@ -36,8 +36,8 @@
   git clone https://github.com/manojnathyogi/Equitable_AI_Dermatology-TeamGlycolic.git
   cd Equitable_AI_Dermatology-TeamGlycolic
   ```
-* Make sure to download the datasets provided in the competition link, and paste them in the same directory as the notebooks
-* These notebooks can run in IDEs like Visual Studio Code, but we recommend opening it in the Kaggle or Jupyter Notebook sites
+* Make sure to download the datasets provided in the competition link and update the file paths in the notebook accordingly.
+* These notebooks can run in IDEs like Visual Studio Code, but we recommend opening it in the Kaggle or Jupyter Notebook
 
 
 ---
@@ -79,7 +79,6 @@
 
   ![Label Distribution in Training Set](https://github.com/user-attachments/assets/a51729c1-f912-47bf-90b7-c6dd0a775b67)
 
-- 
 ---
 
 ## **🧠 Model Development**
@@ -104,7 +103,7 @@
 * After increasing the learning rate to 1e-3, the model started to overfit, learning the training data but failing to generalize well. To address this, we implemented a learning rate reduction callback, which dynamically reduces the learning rate when the validation accuracy begins to plateau.
 * Additionally, for models with relatively fewer layers, such as ResNet50, we needed to train for more epochs to allow the model to effectively learn from the dataset.
 
-**Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)**
+**Training setup**
 
 * Training and validation data had a ratio of 80:20
 * Training evaluation metric: Validation accuracy
@@ -112,22 +111,21 @@
 
 ## **📈 Results & Key Findings**
 
-**Describe (as applicable):**
-
-* Performance metrics (e.g., Kaggle Leaderboard score, F1-score)
-* How your model performed overall
-* How your model performed across different skin tones (AJL)
-* Insights from evaluating model fairness (AJL)
+**Performance metrics** (e.g., Kaggle Leaderboard score, F1-score)
+Kaggle Leaderboard F1-Score: 0.61
+* How your model performed overall [to be updated]
+* How your model performed across different skin tones (AJL) [to be updated]
+* Insights from evaluating model fairness (AJL) [to be updated]
 
 **Potential visualizations to include:**
 
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools [to be updated]
 
 ---
 
 ## **🖼️ Impact Narrative**
 
-1. What steps did you take to address [model fairness](https://haas.berkeley.edu/wp-content/uploads/What-is-fairness_-EGAL2.pdf)? (e.g., leveraging data augmentation techniques to account for training dataset imbalances; using a validation set to assess model performance across different skin tones)
+1. What steps did you take to address [model fairness](https://haas.berkeley.edu/wp-content/uploads/What-is-fairness_-EGAL2.pdf)? (e.g., leveraging data augmentation techniques to account for training dataset imbalances; using a validation set to assess model performance across different skin tones) [to be updated]
 
 Although we weren't able to implement all of our ideas for making the model more inclusive, we hope our work serves as an inspiration for others to join us in this movement. We believe continued efforts toward creating more inclusive models will have a meaningful impact on improving healthcare outcomes for underrepresented groups.
 
@@ -135,14 +133,11 @@ Although we weren't able to implement all of our ideas for making the model more
 
 ## **🚀 Next Steps & Future Improvements**
 
-**Address the following:**
+- We encountered challenges with model overfitting and inconsistencies in results when running the model multiple times.  
 
-* What are some of the limitations of your model?<br />
-  We had some difficulties with the model overfitting the data and inconsistencies with our results after running the model several times
-* What would you do differently with more time/resources? <br />
-  With more time and resources we could have researched better the reason behind the inconsistencies of our results and work around those
-* What additional datasets or techniques would you explore? <br />
-  We would explore different techniques related to ensemble models and other image-oriented EDA
+- With more time and resources, we could have investigated the causes of these inconsistencies and developed strategies to address them. This would involve understanding the internal structure of the pre-trained models and conducting more hyperparameter tuning.  
+
+- Future improvements include exploring alternative models, implementing ensemble learning, applying k-fold cross-validation, training models specific to each Fitzpatrick skin type, and conducting further image-oriented EDA to enhance model robustness and generalization.
 
 ---
 
