@@ -69,7 +69,7 @@
 
 - **Explanation**: Cultural differences in skin tone classification, as well as potential biases in data collection or subjectivity in manual assessments, may account for discrepancies between the two variables.
 
-  ![Screenshot 2025-03-22 123139](https://github.com/user-attachments/assets/7ba3c1c3-5d1f-414a-a7f2-89b57b3dc566)
+  ![Screenshot 2025-03-22 123139]()
 
 ---
 
