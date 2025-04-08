@@ -115,9 +115,9 @@
 - **Kaggle Leaderboard Weighted F1 Score**: `0.61`
 - **Final Placement**: `13th out of 74 teams`
 
-* How your model performed overall [to be updated]
-* How your model performed across different skin tones (AJL) [to be updated]
-* Insights from evaluating model fairness (AJL) [to be updated]
+How your model performed overall [to be updated]
+How your model performed across different skin tones (AJL) [to be updated]
+Insights from evaluating model fairness (AJL) [to be updated]
 
 **Potential visualizations to include:**
 
