@@ -69,7 +69,7 @@
 
 - **Explanation**: Cultural differences in skin tone classification, as well as potential biases in data collection or subjectivity in manual assessments, may account for discrepancies between the two variables.
 
-  ![Screenshot 2025-03-22 123139]()
+  ![Screenshot 2025-03-22 123139](https://github.com/manojnathyogi/Equitable_AI_Dermatology-TeamGlycolic/blob/main/Screenshot%202025-03-22%20123139.png)
 
 ---
 
