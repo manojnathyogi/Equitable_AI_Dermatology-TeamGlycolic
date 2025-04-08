@@ -77,7 +77,7 @@
 
 - To address the class imbalance issue, we implemented a strategy using a class weights dictionary, which was later fed into the model during training to ensure balanced learning across all classes.
 
-  ![Label Distribution in Training Set](https://github.com/user-attachments/assets/a51729c1-f912-47bf-90b7-c6dd0a775b67)
+  ![Label Distribution in Training Set](https://github.com/manojnathyogi/Equitable_AI_Dermatology-TeamGlycolic/blob/main/label_distribution_in_training_sett.png)
 
 ---
 
