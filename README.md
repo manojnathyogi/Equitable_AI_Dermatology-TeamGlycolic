@@ -112,16 +112,47 @@
 ## **📈 Results & Key Findings**
 
 ### 🏆 Performance Metrics
-- **Kaggle Leaderboard Weighted F1 Score**: `0.61`
-- **Final Placement**: `13th out of 74 teams`
+- **Final Model**: Fine-tuned `ConvNeXtTiny`
+- **Validation Accuracy**: ~68%
+- **F1 Score**: `0.61`
+- **Leaderboard Rank**: `13th out of 74 teams`
 
-How your model performed overall [to be updated]
-How your model performed across different skin tones (AJL) [to be updated]
-Insights from evaluating model fairness (AJL) [to be updated]
+---
 
-**Potential visualizations to include:**
+### 📊 Overall Model Performance
 
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools [to be updated]
+Our model performed well on high-frequency conditions like `acne-vulgaris` and `folliculitis`, while rare or visually similar classes such as `eczema`, `seborrheic-keratosis`, and `malignant-melanoma` were more challenging.
+
+**Confusion Matrix**:
+
+![Confusion_Matrix](https://github.com/manojnathyogi/Equitable_AI_Dermatology-TeamGlycolic/blob/main/confusion-matrix.png)
+
+---
+
+### 🌈 Performance Across Skin Tones
+
+- Most samples were from Fitzpatrick Types II–IV.
+- Underrepresented skin tones (Types I and VI) showed slightly lower class-wise accuracy.
+- We used class weights, brightness/contrast augmentations, and removed invalid FST values (`-1`) to reduce bias.
+
+---
+
+### 📉 Precision-Recall Summary
+
+The plot below compares the **top 5 and bottom 5 classes** based on average precision (AP):
+
+**Precision-Recall Curve**:
+
+![Precision-Recall Curve](https://github.com/manojnathyogi/Equitable_AI_Dermatology-TeamGlycolic/blob/main/precision-recallCurve.png)
+
+
+| 🔼 Top Classes (High AP)       | 🔽 Bottom Classes (Low AP)     |
+|-------------------------------|-------------------------------|
+| prurigo-nodularis (0.86)      | dyshidrotic-eczema (0.29)     |
+| folliculitis (0.85)           | actinic-keratosis (0.33)      |
+| acne-vulgaris (0.84)          | eczema (0.33)                 |
+| basal-cell-carcinoma-morpheiform (0.80) | malignant-melanoma (0.35) |
+| mycosis-fungoides (0.76)      | seborrheic-keratosis (0.40)   |
 
 ---
 
