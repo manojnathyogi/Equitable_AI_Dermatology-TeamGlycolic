@@ -158,7 +158,6 @@ The plot below compares the **top 5 and bottom 5 classes** based on average prec
 
 ## **🖼️ Impact Narrative**
 
-1. What steps did you take to address [model fairness](https://haas.berkeley.edu/wp-content/uploads/What-is-fairness_-EGAL2.pdf)? (e.g., leveraging data augmentation techniques to account for training dataset imbalances; using a validation set to assess model performance across different skin tones)
 - We addressed fairness by applying class weighting, augmentation (brightness, flips, etc.), and by filtering invalid fitzpatrick_scale values. We also used stratified validation and analyzed performance across skin tones.
 
 - Although we weren't able to implement all of our ideas for making the model more inclusive, we hope our work serves as an inspiration for others to join us in this movement. We believe continued efforts toward creating more inclusive models will have a meaningful impact on improving healthcare outcomes for underrepresented groups.
